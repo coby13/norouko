@@ -1,4 +1,12 @@
 Norouko::Application.routes.draw do
+  mount Ckeditor::Engine => '/ckeditor'
+
+  resources :categories
+
+
+  resources :articles
+
+
   root :to => 'home#index'
 
 
@@ -6,6 +14,8 @@ Norouko::Application.routes.draw do
   ActiveAdmin.routes(self)
 
   get "home/index"
+  get "home/contact"
+  match '/contact' => 'home#contact', :as => 'contact'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

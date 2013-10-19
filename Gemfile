@@ -26,6 +26,10 @@ gem "jquery-rails", "~> 2.3.0"
 gem 'activeadmin'
 gem "meta_search",    '>= 1.1.0.pre'
 gem 'globalize3'
+gem 'friendly_id'
+gem "ckeditor"
+gem "paperclip"
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
