@@ -22,7 +22,7 @@ group :assets do
   gem 'zurb-foundation', '~> 4.0.0'
 end
 
-gem 'jquery-rails'
+gem "jquery-rails", "~> 2.3.0"
 gem 'activeadmin'
 gem "meta_search",    '>= 1.1.0.pre'
 
