@@ -1,20 +1,30 @@
-<p id="notice"><%= notice %></p>
+<div class= "row">
+  <div class="large-3 columns">
 
-<p>
-  <b>Title:</b>
-  <%= @article.title %>
-</p>
-
-<p>
-  <b>Body:</b>
-  <%= @article.body %>
-</p>
-
-<p>
-  <b>Category:</b>
-  <%= @article.category_id %>
-</p>
+    <div class= "white">
 
 
-<%= link_to 'Edit', edit_article_path(@article) %> |
-<%= link_to 'Back', articles_path %>
+
+      <% @catarticles.each do |article| %>
+          <ul>
+            <li><%= raw article.title %></li>
+          </ul>
+
+      <% end %>
+      </table>
+
+      <br />
+
+
+    </div>
+  </div>
+  <div class="large-9 columns">
+
+    <div class= "white">
+
+        <%=raw  @article.body %>
+
+
+    </div>
+  </div>
+</div>

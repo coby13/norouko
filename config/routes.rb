@@ -21,6 +21,11 @@ Norouko::Application.routes.draw do
   get "home/contact"
   match 'contact1' => 'home#contact', :as => 'contact1'
   match 'aboutus' => 'home#aboutus', :as => 'aboutus'
+  match 'commitment' => 'home#commitment', :as => 'commitment'
+  match 'corporate' => 'home#corporate', :as => 'corporate'
+  match 'private' => 'home#private', :as => 'private'
+  match 'it' => 'home#it', :as => 'it'
+
 
   match 'contactus' => 'contact#new', :as => 'contactus', :via => :get
   match 'careers' => 'contact#careers', :as => 'careers', :via => :get

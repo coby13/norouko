@@ -18,8 +18,8 @@ ActiveAdmin.register Article do
     #repeat as necessary for all fields
 
     f.translated_inputs do |t|
-      t.input :title
-      t.input :body
+      t.input :title, :as => :ckeditor
+      t.input :body, :as => :ckeditor
     end
     f.buttons
   end

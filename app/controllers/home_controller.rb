@@ -11,13 +11,31 @@ class HomeController < ApplicationController
   def aboutus
     @title =  "Milshield"
     @category = Category.find(2)
-    @frontarticle = @category.articles.first
+    @article = @category.articles.first
   end
 
   def commitment
     @title =  "Milshield"
     @category = Category.find(3)
-    @frontarticle = @category.articles.first
+    @article = @category.articles.first
+  end
+
+  def corporate
+    @title =  "Milshield"
+    @category = Category.find(4)
+    @article = @category.articles
+  end
+
+  def private
+    @title =  "Milshield"
+    @category = Category.find(5)
+    @article = @category.articles
+  end
+
+  def it
+    @title =  "Milshield"
+    @category = Category.find(6)
+    @article = @category.articles
   end
 
 

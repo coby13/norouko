@@ -56,9 +56,9 @@
             <li class="divider"></li>
             <li class="has-dropdown"><a href="#"><%= link_to t('menu3') %></a>
             <ul class="dropdown">
-              <li class="has-dropdown"><a href="#">Dropdown Level 1a</a></li>
-              <li class="has-dropdown"><a href="#">Dropdown Level 1a</a></li>
-              <li class="has-dropdown"><a href="#">Dropdown Level 1a</a></li>
+              <li class="has-dropdown"><a href="#"><%=t('moto1')%></a></li>
+              <li class="has-dropdown"><a href="#"><%=t('moto2')%></a></li>
+              <li class="has-dropdown"><a href="#"><%=t('moto3')%></a></li>
             </ul>
             <li class="divider"></li>
             <li><%= link_to t('menu4') %></li>
@@ -84,7 +84,13 @@
     </nav>
 
     <%= yield %>
+
+    <div class="footer">
+      Milshield P.C. © 2013   |   Disclaimer  |  Privacy
+    </div>
   </div>
+
+
   <%= javascript_include_tag "application" %>
     </div>
 </body>

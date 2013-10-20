@@ -36,6 +36,8 @@ module Norouko
     config.i18n.available_locales = [:en, :gr]
 
 
+
+
     # Configure the default encoding used in templates for Ruby 1.9.
     config.encoding = "utf-8"
 
