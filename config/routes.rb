@@ -20,11 +20,13 @@ Norouko::Application.routes.draw do
   get "home/index"
   get "home/contact"
   match 'contact1' => 'home#contact', :as => 'contact1'
+  match 'aboutus' => 'home#aboutus', :as => 'aboutus'
 
   match 'contactus' => 'contact#new', :as => 'contactus', :via => :get
   match 'careers' => 'contact#careers', :as => 'careers', :via => :get
 
   match 'contactus' => 'contact#create', :as => 'contactus', :via => :post
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

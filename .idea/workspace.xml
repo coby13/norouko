@@ -2,30 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f09537c6-8ee2-4173-a226-781cb0d78579" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/contact/careers.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/message.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/contact/new.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/notifications_mailer/new_message.text.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/home/aboutus.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/article.rb" afterPath="$PROJECT_DIR$/app/models/article.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/articles.rb" afterPath="$PROJECT_DIR$/app/admin/articles.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/contact.html.erb" afterPath="$PROJECT_DIR$/app/views/home/contact.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/gr.yml" afterPath="$PROJECT_DIR$/config/locales/gr.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nora.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="f09537c6-8ee2-4173-a226-781cb0d78579" time="1382091890068" ignored="false" />
-    <file path="/routes.rb" changelist="f09537c6-8ee2-4173-a226-781cb0d78579" time="1382209974740" ignored="false" />
+    <file path="/routes.rb" changelist="f09537c6-8ee2-4173-a226-781cb0d78579" time="1382262312875" ignored="false" />
     <file path="/bootstrap_and_overrides.css" changelist="f09537c6-8ee2-4173-a226-781cb0d78579" time="1382167647724" ignored="false" />
-    <file path="/application.html.erb" changelist="f09537c6-8ee2-4173-a226-781cb0d78579" time="1382257021711" ignored="false" />
-    <file path="/Dummy.txt" changelist="f09537c6-8ee2-4173-a226-781cb0d78579" time="1382258148810" ignored="false" />
-    <file path="/index.html.erb" changelist="f09537c6-8ee2-4173-a226-781cb0d78579" time="1382120649441" ignored="false" />
+    <file path="/application.html.erb" changelist="f09537c6-8ee2-4173-a226-781cb0d78579" time="1382262330208" ignored="false" />
+    <file path="/Dummy.txt" changelist="f09537c6-8ee2-4173-a226-781cb0d78579" time="1382260582007" ignored="false" />
+    <file path="/index.html.erb" changelist="f09537c6-8ee2-4173-a226-781cb0d78579" time="1382260402642" ignored="false" />
     <file path="/article.rb" changelist="f09537c6-8ee2-4173-a226-781cb0d78579" time="1382256459656" ignored="false" />
     <file path="/20131018161606_create_articles.rb" changelist="f09537c6-8ee2-4173-a226-781cb0d78579" time="1382103398674" ignored="false" />
     <file path="/articles.rb" changelist="f09537c6-8ee2-4173-a226-781cb0d78579" time="1382256679183" ignored="false" />
@@ -40,13 +32,14 @@
     <file path="/20131019120227_create_categories.rb" changelist="f09537c6-8ee2-4173-a226-781cb0d78579" time="1382184216433" ignored="false" />
     <file path="/20131019120915_add_slug_to_articles.rb" changelist="f09537c6-8ee2-4173-a226-781cb0d78579" time="1382184732618" ignored="false" />
     <file path="/20131019120930_add_slug_to_categories.rb" changelist="f09537c6-8ee2-4173-a226-781cb0d78579" time="1382184745073" ignored="false" />
-    <file path="/home_controller.rb" changelist="f09537c6-8ee2-4173-a226-781cb0d78579" time="1382204726103" ignored="false" />
+    <file path="/home_controller.rb" changelist="f09537c6-8ee2-4173-a226-781cb0d78579" time="1382262075754" ignored="false" />
     <file path="/contact_mailer.rb" changelist="f09537c6-8ee2-4173-a226-781cb0d78579" time="1382201585943" ignored="false" />
     <file path="/new.html.erb" changelist="f09537c6-8ee2-4173-a226-781cb0d78579" time="1382209373957" ignored="false" />
     <file path="/contact.html.erb" changelist="f09537c6-8ee2-4173-a226-781cb0d78579" time="1382205458335" ignored="false" />
     <file path="/notifications_mailer.rb" changelist="f09537c6-8ee2-4173-a226-781cb0d78579" time="1382207605692" ignored="false" />
     <file path="/contact_controller.rb" changelist="f09537c6-8ee2-4173-a226-781cb0d78579" time="1382209872454" ignored="false" />
     <file path="/database.yml" changelist="f09537c6-8ee2-4173-a226-781cb0d78579" time="1382258402604" ignored="false" />
+    <file path="/aboutus.html.erb" changelist="f09537c6-8ee2-4173-a226-781cb0d78579" time="1382262396966" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,55 +59,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="home_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+            <state line="18" column="31" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/message.rb">
+      <file leaf-file-name="aboutus.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/home/aboutus.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="46" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
+            <state line="7" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <file leaf-file-name="gr.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/locales/gr.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="16" selection-start="585" selection-end="585" vertical-scroll-proportion="0.5952381">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/application.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="1714" selection-end="1714" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="article.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/article.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="39" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="articles.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+            <state line="25" column="0" selection-start="804" selection-end="804" vertical-scroll-proportion="0.18367347">
               <folding />
             </state>
           </provider>
@@ -123,30 +89,8 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="31" selection-start="2880" selection-end="2886" vertical-scroll-proportion="-2.9">
+            <state line="54" column="52" selection-start="2047" selection-end="2047" vertical-scroll-proportion="-12.5">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="careers.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/contact/careers.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="1459" selection-end="1459" vertical-scroll-proportion="-24.0">
-              <folding>
-                <marker date="1382209945000" expanded="true" signature="40:1457" placeholder="..." />
-                <marker date="1382209945000" expanded="true" signature="73:532" placeholder="..." />
-                <marker date="1382209945000" expanded="true" signature="457:486" placeholder="..." />
-                <marker date="1382209945000" expanded="true" signature="553:1450" placeholder="..." />
-                <marker date="1382209945000" expanded="true" signature="588:1373" placeholder="..." />
-                <marker date="1382209945000" expanded="true" signature="689:1248" placeholder="..." />
-                <marker date="1382209945000" expanded="true" signature="721:821" placeholder="..." />
-                <marker date="1382209945000" expanded="true" signature="854:956" placeholder="..." />
-                <marker date="1382209945000" expanded="true" signature="988:1094" placeholder="..." />
-                <marker date="1382209945000" expanded="true" signature="1127:1226" placeholder="..." />
-                <marker date="1382209945000" expanded="true" signature="1286:1346" placeholder="..." />
-                <marker date="1382209945000" expanded="true" signature="1407:1441" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -154,19 +98,53 @@
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="55" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0">
+            <state line="22" column="52" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/contact/new.html.erb">
+      <file leaf-file-name="article.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/article.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="15" selection-start="0" selection-end="1459" vertical-scroll-proportion="-18.75">
-              <folding>
-                <element signature="n#style#0;n#a#0;n#small#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/articles/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="38" selection-end="82" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="20" selection-end="850" vertical-scroll-proportion="-0.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/contact_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="26" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="categories_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/categories_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -189,28 +167,28 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/contact_mailer/new_message.text.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/message.rb" />
-        <option value="$PROJECT_DIR$/app/mailers/notifications_mailer.rb" />
         <option value="$PROJECT_DIR$/app/views/notifications_mailer/new_message.text.erb" />
         <option value="$PROJECT_DIR$/app/views/home/contact.html.erb" />
         <option value="$PROJECT_DIR$/app/views/contact/new.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/contact_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/contact/careers.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/models/article.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/admin/articles.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/home/aboutus.html.erb" />
+        <option value="$PROJECT_DIR$/config/locales/gr.yml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
-    <option name="y" value="33" />
+    <option name="x" value="4" />
+    <option name="y" value="22" />
     <option name="width" value="1276" />
     <option name="height" value="778" />
   </component>
@@ -221,7 +199,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -240,6 +218,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -578,14 +557,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$USER_HOME$/trohkakalo" />
+    <property name="last_opened_file_path" value="$USER_HOME$/pro" />
   </component>
   <component name="RunManager" selected="Rails.Development: norouko">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -716,7 +694,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
       <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSRemoteDebuggerConfigurationSettings>
       <method />
@@ -901,16 +879,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="33" width="1276" height="778" extended-state="6" />
+    <frame x="4" y="22" width="1276" height="778" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.04405286" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.042584434" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25365853" sideWeight="0.67107195" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25772357" sideWeight="0.9574156" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -919,6 +896,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -985,37 +963,44 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="5" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
+        <state line="25" column="16" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/notifications_mailer/new_message.text.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="26" selection-start="118" selection-end="118" vertical-scroll-proportion="-3.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/notifications_mailer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="41" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/contact_helper.rb">
+    <entry file="file://$PROJECT_DIR$/config/locales/devise.en.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/contact.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="6" selection-start="0" selection-end="2007" vertical-scroll-proportion="-19.708334">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="56" selection-start="27" selection-end="51" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/articles_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/home_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1027,87 +1012,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contact/new.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/categories_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="15" selection-start="0" selection-end="1459" vertical-scroll-proportion="-18.75">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#small#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contact/careers.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/articles/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1459" selection-end="1459" vertical-scroll-proportion="-24.0">
-          <folding>
-            <marker date="1382209945000" expanded="true" signature="40:1457" placeholder="..." />
-            <marker date="1382209945000" expanded="true" signature="73:532" placeholder="..." />
-            <marker date="1382209945000" expanded="true" signature="457:486" placeholder="..." />
-            <marker date="1382209945000" expanded="true" signature="553:1450" placeholder="..." />
-            <marker date="1382209945000" expanded="true" signature="588:1373" placeholder="..." />
-            <marker date="1382209945000" expanded="true" signature="689:1248" placeholder="..." />
-            <marker date="1382209945000" expanded="true" signature="721:821" placeholder="..." />
-            <marker date="1382209945000" expanded="true" signature="854:956" placeholder="..." />
-            <marker date="1382209945000" expanded="true" signature="988:1094" placeholder="..." />
-            <marker date="1382209945000" expanded="true" signature="1127:1226" placeholder="..." />
-            <marker date="1382209945000" expanded="true" signature="1286:1346" placeholder="..." />
-            <marker date="1382209945000" expanded="true" signature="1407:1441" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="55" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0">
+        <state line="3" column="0" selection-start="38" selection-end="82" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/article.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="39" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="31" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="20" selection-end="850" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="52" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="31" selection-start="2880" selection-end="2886" vertical-scroll-proportion="-2.9">
+        <state line="54" column="52" selection-start="2047" selection-end="2047" vertical-scroll-proportion="-12.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/home/aboutus.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+        <state line="7" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="-4.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
+    <entry file="file://$PROJECT_DIR$/config/locales/gr.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1714" selection-end="1714" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/message.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="46" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="16" selection-start="585" selection-end="585" vertical-scroll-proportion="0.5952381">
+        <state line="25" column="0" selection-start="804" selection-end="804" vertical-scroll-proportion="0.18367347">
           <folding />
         </state>
       </provider>
