@@ -6,6 +6,8 @@ gem 'rails', '3.2.14'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem "mysql2"
+
 
 
 # Gems used only for assets and not required
@@ -29,7 +31,7 @@ gem 'globalize3'
 gem 'friendly_id'
 gem "ckeditor"
 gem "paperclip"
-
+gem "activeadmin-globalize3"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

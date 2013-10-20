@@ -13,7 +13,7 @@
   <!-- Set the viewport width to device width for mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+  <title><%= content_for?(:title) ? yield(:title) : "Home" %></title>
 
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "vendor/custom.modernizr" %>
@@ -65,9 +65,11 @@
             <li class="divider"></li>
             <li><%= link_to t('menu5') %></li>
             <li class="divider"></li>
-            <li><%= link_to t('menu6'), contact_path %></li>
-
-
+            <li><%= link_to t('menu6'), careers_path %></li>
+            <li class="divider"></li>
+            <li><%= link_to t('menu7'), contactus_path %></li>
+             </ul>
+          </ul>
           <!-- Right Nav Section
 			    <ul class="right">
 
@@ -78,11 +80,13 @@
 			    </ul>
 			  </section>
 			  </ul>  -->
+
     </nav>
 
     <%= yield %>
   </div>
   <%= javascript_include_tag "application" %>
+    </div>
 </body>
 </html>
 
