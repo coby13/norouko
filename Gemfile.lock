@@ -1,3 +1,20 @@
+GIT
+  remote: git://github.com/nebirhos/activeadmin-seo.git
+  revision: 8799afb0f390479fb53048228b192f4be9c1b800
+  specs:
+    activeadmin-seo (0.0.1)
+      activeadmin
+      activeadmin-dragonfly
+      friendly_id (~> 4.0.0)
+
+GIT
+  remote: git://github.com/stefanoverna/activeadmin-dragonfly.git
+  revision: d39f4689c92b79d051bb079cd2a7d98359f00b83
+  specs:
+    activeadmin-dragonfly (0.0.2)
+      activeadmin
+      dragonfly
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -76,6 +93,9 @@ GEM
       railties (>= 3.2.6, < 5)
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
+    dragonfly (0.9.15)
+      multi_json (~> 1.0)
+      rack
     erubis (2.7.0)
     execjs (2.0.2)
     fastercsv (1.5.5)
@@ -187,7 +207,9 @@ PLATFORMS
 
 DEPENDENCIES
   activeadmin
+  activeadmin-dragonfly!
   activeadmin-globalize3
+  activeadmin-seo!
   ckeditor
   coffee-rails (~> 3.2.1)
   compass-rails

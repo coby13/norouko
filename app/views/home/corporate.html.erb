@@ -6,24 +6,23 @@
 
 
 
-  <% @article.each do |article| %>
-        <ul>
-        <li><%= article.title %></li>
-        </ul>
+      <% @category.articles.each do |article| %>
+          <ul>
+            <%= article.title %>
+          </ul>
 
-  <% end %>
-</table>
+      <% end %>
+      </table>
 
-<br />
+      <br />
 
 
- </div>
+    </div>
   </div>
 
   <div class="large-9 columns">
     <div class= "white">
-
-
+      <%= @article.body %>
     </div>
-    </div>
-    </div>
+  </div>
+</div>

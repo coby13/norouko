@@ -32,6 +32,8 @@ gem 'friendly_id'
 gem "ckeditor"
 gem "paperclip"
 gem "activeadmin-globalize3"
+gem 'activeadmin-seo', github: 'nebirhos/activeadmin-seo'
+gem "activeadmin-dragonfly", github: "stefanoverna/activeadmin-dragonfly"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

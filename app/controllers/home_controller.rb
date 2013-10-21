@@ -23,19 +23,19 @@ class HomeController < ApplicationController
   def corporate
     @title =  "Milshield"
     @category = Category.find(4)
-    @article = @category.articles
+    @article = @category.articles.first
   end
 
   def private
     @title =  "Milshield"
     @category = Category.find(5)
-    @article = @category.articles
+    @article = @category.articles.first
   end
 
   def it
     @title =  "Milshield"
     @category = Category.find(6)
-    @article = @category.articles
+    @article = @category.articles.first
   end
 
 

@@ -18,8 +18,9 @@ ActiveAdmin.register Article do
     #repeat as necessary for all fields
 
     f.translated_inputs do |t|
-      t.input :title, :as => :ckeditor
+      t.input :title
       t.input :body, :as => :ckeditor
+      t.seo_meta_inputs
     end
     f.buttons
   end
