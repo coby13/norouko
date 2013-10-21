@@ -66,11 +66,11 @@ module Norouko
 
 
     config.action_mailer.smtp_settings = {
-        :address              => "smtp.gmail.com",
+        :address              => "smtp.live.com",
         :port                 => 587,
-        :domain               => "gmail.com",
-        :user_name            => "eliastsirwnhs@gmail.com",
-        :password             => "C@dm!n4P0L",
+        :domain               => "milshield.gr",
+        :user_name            => "info@milshield.gr",
+        :password             => "C@sper268082",
         :authentication       => :plain,
         :enable_starttls_auto => true
     }

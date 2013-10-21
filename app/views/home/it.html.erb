@@ -1,49 +1,25 @@
 
 <div class= "row">
-  <div class="large-3 columns">
+  <div class="large-12 columns">
 
-    <div class= "white">
-      <div class="sidetitle">ΥΠΗΡΕΣΙΕΣ:</div></br>
       <% @category.articles.each do |article| %>
-          <ul class="side-nav">
-            <li><%= link_to_unless_current article.title, article %></li>
+        <div class="large-4 columns">
+
+        <div class= "white">
+
+        <ul class="side-nav">
+            <%=raw link_to_unless_current article.title, article %>
           </ul>
+        </div>
+        </div>
 
-
-      <% end %>
-
-    </div>
-    <div class= "white">
-      <a href="#" data-reveal-id="myModal">Click Me For A Modal</a>
-    </div>
-
-  </div>
-
-  <div class="large-9 columns">
-    <div class= "white">
-      <%= @article.body %>
-    </div>
-  </div>
-</div>
-
-<div id="myModal" class="reveal-modal large">
-  <p>Fill the form and soon one of us will call you!!</p>
-  <%= form_for :message, :url => contactus_path do |form| %>
-      <%= form.label t('formname') %>
-      <%= form.text_field :name, label: 'Your username please' %>
-      <%= form.label "email" %>
-      <%= form.text_field :email %>
-      <%= form.label t('subject') %>
-      <%= form.text_field :subject %>
-      <%= form.label t('body') %>
-
-      <%= form.text_area :body %>
-      <%= form.hidden_field :service, :value => "test" %>
-
-      <fieldset class="actions">
-        <%= form.submit "Send" %>
-      </fieldset>
   <% end %>
 
+    </div>
+
+
+
 
 </div>
+
+

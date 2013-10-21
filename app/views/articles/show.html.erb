@@ -7,7 +7,7 @@
 
       <% @catarticles.each do |article| %>
           <ul>
-            <li><%= raw article.title %></li>
+            <%=raw link_to_unless_current article.title, article %>
           </ul>
 
       <% end %>
@@ -18,7 +18,7 @@
 
     </div>
     <div class= "white">
-      <a href="#" data-reveal-id="myModal">Click Me For A Modal</a>
+      <a href="#" data-reveal-id="myModal">Εκδήλωση ενδιαφέροντος</a>
     </div>
   </div>
   <div class="large-9 columns">
@@ -32,7 +32,7 @@
   </div>
 </div>
 <div id="myModal" class="reveal-modal large">
-  <p>Fill the form and soon one of us will call you!!</p>
+  <p>Συμπληρώστε την ΄ορμα και θα επικοινωνήσουμε μαζί σας σύντομα!!</p>
   <%= form_for :message, :url => contactus_path do |form| %>
       <%= form.label t('formname') %>
       <%= form.text_field :name, label: 'Your username please' %>
