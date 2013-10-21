@@ -1,28 +1,25 @@
 
 <div class= "row">
-  <div class="large-3 columns">
+  <div class="large-12 columns">
 
-    <div class= "white">
+    <% @category.articles.each do |article| %>
+        <div class="large-4 columns">
 
+          <div class= "white">
 
+            <ul class="side-nav">
+              <%=raw link_to_unless_current article.title, article %>
+            </ul>
+          </div>
+        </div>
 
-      <% @category.articles.each do |article| %>
-          <ul>
-            <%= article.title %>
-          </ul>
+    <% end %>
 
-      <% end %>
-      </table>
-
-      <br />
-
-
-    </div>
   </div>
 
-  <div class="large-9 columns">
-    <div class= "white">
-      <%= @article.body %>
-    </div>
-  </div>
+
+
+
 </div>
+
+

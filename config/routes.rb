@@ -29,6 +29,8 @@ Norouko::Application.routes.draw do
 
   match 'contactus' => 'contact#new', :as => 'contactus', :via => :get
   match 'careers' => 'contact#careers', :as => 'careers', :via => :get
+  match 'quote' => 'contact#quote', :as => 'quote', :via => :get
+
 
   match 'contactus' => 'contact#create', :as => 'contactus', :via => :post
 
