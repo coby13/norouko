@@ -103,6 +103,8 @@ $primary-color: #5798d4;
 // $h5-font-size: emCalc(18px);
 // $h6-font-size: 1em;
 .panel.callout {
+  text-align: center;
+  vertical-align: middle;
   border-style: solid;
   border-width: 1px;
   border-color: rgba(4, 3, 4, 0.60);
@@ -1062,13 +1064,13 @@ $topbar-link-font-size: emCalc(15px);
 .whiteservice a {
   text-shadow: none;
   text-decoration: none;
-  font-size: 28px;
+  font-size: 20px;
   color: #f0f0f0;
 }
 
 
 .whiteservice a:hover{
-  font-size: 28px;
+  font-size: 20px;
   color: #000;
 }
 
