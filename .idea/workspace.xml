@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f09537c6-8ee2-4173-a226-781cb0d78579" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/aboutus.html.erb" afterPath="$PROJECT_DIR$/app/views/home/aboutus.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/articles_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contact/careers.html.erb" afterPath="$PROJECT_DIR$/app/views/contact/careers.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/commitment.html.erb" afterPath="$PROJECT_DIR$/app/views/home/commitment.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/corporate.html.erb" afterPath="$PROJECT_DIR$/app/views/home/corporate.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/foundation_and_overrides.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/foundation_and_overrides.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/gr.yml" afterPath="$PROJECT_DIR$/config/locales/gr.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/it.html.erb" afterPath="$PROJECT_DIR$/app/views/home/it.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contact/new.html.erb" afterPath="$PROJECT_DIR$/app/views/contact/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/private.html.erb" afterPath="$PROJECT_DIR$/app/views/home/private.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/articles/show.html.erb" afterPath="$PROJECT_DIR$/app/views/articles/show.html.erb" />
     </list>
     <ignored path="nora.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,11 +84,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="76" selection-start="708" selection-end="708" vertical-scroll-proportion="10.625">
-              <folding />
+            <state line="104" column="2" selection-start="3783" selection-end="3783" vertical-scroll-proportion="0.9220104">
+              <folding>
+                <element signature="e#696#710#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,10 +149,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="foundation_and_overrides.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="foundation_and_overrides.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/foundation_and_overrides.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1241" column="0" selection-start="35740" selection-end="35740" vertical-scroll-proportion="0.84347826">
+            <state line="1241" column="0" selection-start="35740" selection-end="35740" vertical-scroll-proportion="-18.653847">
               <folding />
             </state>
           </provider>
@@ -198,11 +187,11 @@
         <option value="$PROJECT_DIR$/app/views/articles/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/contact/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/contact/careers.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/config/locales/en.yml" />
         <option value="$PROJECT_DIR$/config/locales/gr.yml" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/foundation_and_overrides.scss" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -1132,13 +1121,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="76" selection-start="708" selection-end="708" vertical-scroll-proportion="10.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="66" selection-start="669" selection-end="669" vertical-scroll-proportion="-9.375">
@@ -1148,8 +1130,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/foundation_and_overrides.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1241" column="0" selection-start="35740" selection-end="35740" vertical-scroll-proportion="0.84347826">
+        <state line="1241" column="0" selection-start="35740" selection-end="35740" vertical-scroll-proportion="-18.653847">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="2" selection-start="3783" selection-end="3783" vertical-scroll-proportion="0.9220104">
+          <folding>
+            <element signature="e#696#710#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
