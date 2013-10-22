@@ -29,7 +29,7 @@ $body-bg: #f0f0f0 image-url('tiles.png');
 // $text-direction: ltr;
 
 // We use these as default colors throughout
-$primary-color: #5798d4;
+$primary-color: #386792;
 // $secondary-color: #e9e9e9;
 // $alert-color: #c60f13;
 // $success-color: #5da423;
@@ -110,7 +110,7 @@ $primary-color: #5798d4;
   border-color: rgba(4, 3, 4, 0.60);
   margin-bottom: 1.25em;
   padding: 1.25em;
-  background: rgba(4, 3, 4, 0.69);
+  background: #386792;
   -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 }
@@ -1192,6 +1192,11 @@ p {
 
 }
 
+a{
+  font-family: 'Jura', sans-serif;
+
+}
+
 .social{
   padding-right: 10px;
   text-align: right;
@@ -1227,6 +1232,17 @@ p {
   font-family:'Jura';
 }
 
+
+.article-title{
+  text-decoration: underline;
+}
+
+.ceowords{
+  font-family:'Jura';
+
+  text-align: justify;
+
+}
 
 
 @import url(http://fonts.googleapis.com/css?family=Jura:500,400,300,600&subset=latin,greek-ext,greek,latin-ext);

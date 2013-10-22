@@ -1,4 +1,5 @@
 
+<% content_for :title,  t('careers') %>
 
 
 <% @title="Home1"%>
@@ -9,6 +10,8 @@
 </div>  <div class= "row">
 
   <div class="large-6 columns">
+    <div class="whiteform">
+
     <%= form_for @message, :url => contactus_path do |form| %>
         <fieldset class="fields">
           <div class="field">
@@ -35,7 +38,7 @@
             <%= form.hidden_field :service, :value => "contact" %>
             <%= form.submit "Send" %>
 
-          </div>
+          </div></div>
         </fieldset>
 
 

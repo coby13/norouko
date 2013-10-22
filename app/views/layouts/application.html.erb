@@ -13,7 +13,7 @@
   <!-- Set the viewport width to device width for mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title><%= content_for?(:title) ? yield(:title) : "Home" %></title>
+  <title>Milshield | <%= content_for?(:title) ? yield(:title) : t('frontpage') %></title>
 
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "vendor/custom.modernizr" %>
@@ -29,8 +29,8 @@
             <%= image_tag "mail.png" %> info@milshield.gr <%= image_tag "phone.png" %> +302109835124
 
             <div class= "language">
-              <%= link_to_unless I18n.locale == :en, "English", locale: "en" %> |
-              <%= link_to_unless I18n.locale == :gr, "Ελληνικά", locale: "gr" %>
+              <a><%= link_to_unless I18n.locale == :en, "English", locale: "en" %></a> |
+              <a><%= link_to_unless I18n.locale == :gr, "Ελληνικά", locale: "gr" %></a>
             </div>
 
           </div>

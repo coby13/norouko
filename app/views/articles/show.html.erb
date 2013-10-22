@@ -1,3 +1,5 @@
+<% content_for :title,  @article.title %>
+
 <div class= "row">
   <div class="large-3 columns">
 
@@ -24,11 +26,16 @@
   <div class="large-9 columns">
 
     <div class= "white">
+       <div class="article-title">
+      <h3><%=raw  @article.title %></h3>
+       </div>
 
-        <%=raw  @article.body %>
+
+      <%=raw  @article.body %>
 
 
     </div>
+
   </div>
 </div>
 <div id="myModal" class="reveal-modal large">
