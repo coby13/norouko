@@ -4,40 +4,52 @@
 <% @title="Home1"%>
 <div class= "row">
   <div class="large-12 columns">
-    <iframe width="970" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.gr/maps?f=q&amp;source=s_q&amp;hl=el&amp;geocode=&amp;q=amfitheas+118&amp;aq=&amp;sll=37.081682,23.503568&amp;sspn=2.646827,4.916382&amp;ie=UTF8&amp;hq=&amp;hnear=%CE%9B%CE%B5%CF%89%CF%86%CF%8C%CF%81%CE%BF%CF%82+%CE%91%CE%BC%CF%86%CE%B9%CE%B8%CE%AD%CE%B1%CF%82+118,+%CE%A0%CE%B1%CE%BB%CE%B1%CE%B9%CF%8C+%CE%A6%CE%AC%CE%BB%CE%B7%CF%81%CE%BF,+%CE%9D%CF%8C%CF%84%CE%B9%CE%BF%CF%82+%CE%A4%CE%BF%CE%BC%CE%AD%CE%B1%CF%82+%CE%91%CE%B8%CE%B7%CE%BD%CF%8E%CE%BD&amp;t=m&amp;ll=37.936345,23.705578&amp;spn=0.016924,0.08317&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.gr/maps?f=q&amp;source=embed&amp;hl=el&amp;geocode=&amp;q=amfitheas+118&amp;aq=&amp;sll=37.081682,23.503568&amp;sspn=2.646827,4.916382&amp;ie=UTF8&amp;hq=&amp;hnear=%CE%9B%CE%B5%CF%89%CF%86%CF%8C%CF%81%CE%BF%CF%82+%CE%91%CE%BC%CF%86%CE%B9%CE%B8%CE%AD%CE%B1%CF%82+118,+%CE%A0%CE%B1%CE%BB%CE%B1%CE%B9%CF%8C+%CE%A6%CE%AC%CE%BB%CE%B7%CF%81%CE%BF,+%CE%9D%CF%8C%CF%84%CE%B9%CE%BF%CF%82+%CE%A4%CE%BF%CE%BC%CE%AD%CE%B1%CF%82+%CE%91%CE%B8%CE%B7%CE%BD%CF%8E%CE%BD&amp;t=m&amp;ll=37.936345,23.705578&amp;spn=0.016924,0.08317&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">Προβολή μεγαλύτερου χάρτη</a></small>
-
+    <%=image_tag("careers.jpg", :alt => "Milshield logo",:width => 970, :height => 100) %>
+  </div>
 </div>  <div class= "row">
 
-    <div class="large-6 columns">
-      <%= form_for @message, :url => contactus_path do |form| %>
-          <fieldset class="fields">
-            <div class="field">
-              <%= form.label :name %>
-              <%= form.text_field :name %>
-            </div>
+  <div class="large-6 columns">
+    <%= form_for @message, :url => contactus_path do |form| %>
+        <fieldset class="fields">
+          <div class="field">
+            <%= form.label t('formname') %>
+            <%= form.text_field :name %>
+          </div>
 
-            <div class="field">
-              <%= form.label :email %>
-              <%= form.text_field :email %>
-            </div>
-            <div class="field">
-              <%= form.label :subject %>
-              <%= form.text_field :subject %>
-            </div>
+          <div class="field">
+            <%= form.label "e-mail" %>
+            <%= form.text_field :email %>
+          </div>
+          <div class="field">
+            <%= form.label t('tel') %>
+            <%= form.text_field :tel %>
+          </div>
+          <div class="field">
+            <%= form.label t('subject') %>
+            <%= form.text_field :subject %>
+          </div>
 
-            <div class="field">
-              <%= form.label :body %>
-              <%= form.text_area :body %>
-            </div>
-          </fieldset>
-
-          <fieldset class="actions">
+          <div class="field">
+            <%= form.label t('body') %>
+            <%= form.text_area :body %>
+            <%= form.hidden_field :service, :value => "contact" %>
             <%= form.submit "Send" %>
-          </fieldset>
-      <% end %>
-    </div>
-    <div class="large-6 columns">
-      kdfdosfmdsiofn;c
+
+          </div>
+        </fieldset>
+
+
+
+  <% end %>
+  </div>
+  <div class="large-6 columns">
+    <div class="whiteform">
+      <p>Tel: 2109835124</p>
+      <p>Fax: 2118008299</p>
+
+      <p>Mail: info at milshield.gr</p>
+
+      <p>Amfitheas 118 Avenue Palaio Faliro</p>
     </div>
   </div>
 </div>

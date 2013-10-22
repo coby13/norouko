@@ -9,7 +9,6 @@ class ContactController < ApplicationController
   end
 
   def quote
-    @message = Message.new
   end
 
   def create

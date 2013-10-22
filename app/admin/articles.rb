@@ -3,7 +3,6 @@ ActiveAdmin.register Article do
 
   index do
     column :title
-    column :body
     column :category
 
     default_actions

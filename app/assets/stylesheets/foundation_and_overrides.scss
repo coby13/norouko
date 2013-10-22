@@ -1040,9 +1040,13 @@ $topbar-link-font-size: emCalc(15px);
   padding-top: 30px;
 }
 
-.white{
+.whiteservice{
 
-  background-color: #fafafa;
+  margin-bottom: 20px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #386792;
+  color: #f0f0f0;
   //-webkit-border-radius: 20px;
   //-moz-border-radius: 20px;
   //border-radius: 20px;
@@ -1054,6 +1058,82 @@ $topbar-link-font-size: emCalc(15px);
   -webkit-box-shadow: -5px -5px 5px #888;
   box-shadow: -5px -5px 5px #888;
 }
+
+.whiteservice a {
+  text-shadow: none;
+  text-decoration: none;
+  font-size: 28px;
+  color: #f0f0f0;
+}
+
+
+.whiteservice a:hover{
+  font-size: 28px;
+  color: #000;
+}
+
+.white{
+
+  background-color: #fafafa;
+  //-webkit-border-radius: 20px;
+  //-moz-border-radius: 20px;
+  //border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  -moz-box-shadow: -5px -5px 5px #888;
+  -webkit-box-shadow: -5px -5px 5px #888;
+  box-shadow: -5px -5px 5px #888;
+}
+
+.whiteform{
+
+  margin-top: 20px;
+  background-color: #fafafa;
+  //-webkit-border-radius: 20px;
+  //-moz-border-radius: 20px;
+  //border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  -moz-box-shadow: -5px -5px 5px #888;
+  -webkit-box-shadow: -5px -5px 5px #888;
+  box-shadow: -5px -5px 5px #888;
+}
+
+.whiterequest{
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 20px;
+  background-color: #fafafa;
+  //-webkit-border-radius: 20px;
+  //-moz-border-radius: 20px;
+  //border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  -moz-box-shadow: -5px -5px 5px #888;
+  -webkit-box-shadow: -5px -5px 5px #888;
+  box-shadow: -5px -5px 5px #888;
+}
+
+.whiterequest a:hover {
+  text-shadow: none;
+  text-decoration: none;
+  font-size: 18px;
+  color: #ff0000;
+}
+
+.whiterequest a {
+  text-shadow: none;
+  text-decoration: none;
+  font-size: 18px;
+  color: #ff0000;
+}
+
 
 .white-video{
   background-color: #fff;
